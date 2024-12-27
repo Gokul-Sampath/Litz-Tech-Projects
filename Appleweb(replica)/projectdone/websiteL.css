@@ -1,0 +1,279 @@
+body{
+    /* background-color: lightcyan; */
+    background-image: url(/offers/BG.jpeg);
+    background-size: cover;
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+.top{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-around;
+}
+.top div{
+    text-align: center;
+    margin: 10px;
+}
+.top div:hover{
+    transform: scale(110%);
+}
+.li11{
+    width: 50px;
+    border-radius: 90%;
+}
+.li12{
+    /* height:60%; */
+    width: 25px;
+    border-radius: 40%;
+
+}
+.li13{
+    width: 30px;
+    border-radius: 90%;
+
+}
+.offer_note{
+    border: 0.1px solid;
+    background-color: rgb(51, 53, 59);
+    color: whitesmoke;
+}
+.offer_note p{
+    margin: 10px;
+    text-align: center;
+}
+.see_offers{
+    color: orange;
+}
+.quote{
+    padding:3%;
+    font-size: 5vh;
+}
+.quote span{
+    color: rgb(70, 64, 64);
+}
+
+.qc{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-around;
+}
+.cc{
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 70px;
+}
+.cc1{
+    padding-top: 30px;
+    padding-left: 10px;
+}
+.cc2{
+    padding-top: 30px;
+}
+.img1{
+    margin-top: 10px;
+    border-radius: 100%;
+}
+.img2{
+    padding-top: 10px;
+    border-radius: 100%;
+    width: 70px;
+}
+.products{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-around;
+}
+.products div:hover{
+    transform: scale(110%);
+}
+.products div{
+    text-align: center;
+    margin: 10px;
+}
+.S1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+}
+.S1 div:hover{
+    transform: scale(110%);
+}
+.s1{
+    color:rgb(126, 125, 125);
+}
+/* offer_pannel display*/
+
+/* offer_pannel 1*/
+
+.offer_details1{
+    margin: 10px;
+    border-radius: 10%;
+    height:400px;
+    width: 300px;
+    background-image: url('/offers/Festive_offers.jpeg');
+  background-size: cover;
+}
+.offer_details1_content_topic{
+    color: orange;
+    margin: 20px;
+    /* padding-left: 6%; */
+}
+.offer_details1_content{
+    padding-left: 6%;
+    color: aliceblue;
+}
+
+/* offer_pannel 2*/
+
+.offer_details2{
+    margin: 10px;
+    border-radius: 10%;
+    height:400px;
+    width: 300px;
+    background-image: url('/offers/iPhone_offers.jpeg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.offer_details2_content_topic{
+    color: pink;
+    margin: 20px;
+}
+.offer_details2_content{
+    padding-left: 6%;
+    color: aliceblue;
+}
+
+/* offer_pannel 3*/
+
+.offer_details3{
+    margin: 10px;
+    border-radius: 10%;
+    height:400px;
+    width: 300px;
+    background-image: url('/offers/Mac_offers.jpeg');
+  background-size: cover;
+}
+.offer_details3_content_topic{
+    color: palevioletred;
+    margin: 20px;
+}
+.offer_details3_content{
+    padding-left: 6%;
+    color: aliceblue;
+}
+
+/* offer_pannel 4*/
+
+.offer_details4{
+    border-radius: 10%;
+    height:400px;
+    width: 300px;
+    background-image: url('/offers/ipad_offers.jpeg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.offer_details4_content_topic{
+    color: salmon;
+    margin: 20px;
+}
+.offer_details4_content{
+    padding-left: 6%;
+    color: aliceblue;
+}
+
+/* offer_pannel 5 */
+
+.offer_details5{
+    margin: 10px;
+    border-radius: 10%;
+    height:400px;
+    width: 300px;
+    background-image: url('/offers/apple_watch_offers.jpeg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.offer_details5_content_topic{
+    color: yellow;
+    margin: 10px;
+}
+.offer_details5_content{
+    padding-left: 6%;
+    color: aliceblue;
+}
+
+/* offer_pannel 6 */
+
+.offer_details6{
+    margin: 10px;
+    border-radius: 10%;
+    height:400px;
+    width: 300px;
+    background-image: url('/offers/today_at_apple_offer.jpeg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.offer_details6_content_topic{
+    color: blue;
+    margin: 20px;
+}
+.offer_details6_content{
+    padding-left: 6%;
+    color: aliceblue;
+}
+
+
+.ql{
+    padding-top: 15px;
+}
+.ql a{
+    padding: 20px;
+    margin: 3px;
+    background-color: salmon;
+    border-radius: 40%;
+}
+.terms_and_conditions{
+    width: 100%;
+}
+.terms_and_conditions{
+    width: 90%;
+    padding: 50px;
+    color:rgb(146, 134, 134);
+    font-size: 90%;
+}
+.foot_logo{
+    width: 3%;
+}
+.foot1{
+    color:rgb(146, 134, 134);
+    font-size: 90%;
+    padding-left: 5%;
+    padding-top: 5%;
+}
+.foot_title{
+    color:rgb(146, 134, 134);
+
+}
+.foot_sk{
+    display:flex;
+    flex-wrap: wrap;
+    padding-left: 5%;
+    gap: 7%;
+    justify-content: space-around;
+}
+.foot_endup{
+
+    padding-top: 5%;
+    padding-left: 5%;
+    line-height: 40% ;
+}
+.foot_enddown{
+    line-height: 200%;
+    padding-left: 5% ;
+    display: flex;
+    flex-wrap: wrap;
+}
+.india{
+    padding-left: 1300%;
+}

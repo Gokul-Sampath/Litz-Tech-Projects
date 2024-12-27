@@ -1,0 +1,527 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- <link rel="stylesheet" href="/projectdone/websiteL.css">
+    <link rel="stylesheet" href="/projectdone/websitep.css"> -->
+</head>
+<style>
+    body{
+    /* background-color: lightcyan; */
+    background-image: url(/offers/BG.jpeg);
+    background-size: cover;
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+.top{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-around;
+}
+.top div{
+    text-align: center;
+    margin: 10px;
+}
+.top div:hover{
+    transform: scale(110%);
+}
+.li11{
+    width: 50px;
+    border-radius: 90%;
+}
+.li12{
+    /* height:60%; */
+    width: 25px;
+    border-radius: 40%;
+
+}
+.li13{
+    width: 30px;
+    border-radius: 90%;
+
+}
+.offer_note{
+    border: 0.1px solid;
+    background-color: rgb(51, 53, 59);
+    color: whitesmoke;
+}
+.offer_note p{
+    margin: 10px;
+    text-align: center;
+}
+.see_offers{
+    color: orange;
+}
+.quote{
+    padding:3%;
+    font-size: 5vh;
+}
+.quote span{
+    color: rgb(70, 64, 64);
+}
+
+.qc{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-around;
+}
+.cc{
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 70px;
+}
+.cc1{
+    padding-top: 30px;
+    padding-left: 10px;
+}
+.cc2{
+    padding-top: 30px;
+}
+.img1{
+    margin-top: 10px;
+    border-radius: 100%;
+}
+.img2{
+    padding-top: 10px;
+    border-radius: 100%;
+    width: 70px;
+}
+.products{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-around;
+}
+.products div:hover{
+    transform: scale(110%);
+}
+.products div{
+    text-align: center;
+    margin: 10px;
+}
+.S1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+}
+.S1 div:hover{
+    transform: scale(110%);
+}
+.s1{
+    color:rgb(126, 125, 125);
+}
+/* offer_pannel display*/
+
+/* offer_pannel 1*/
+
+.offer_details1{
+    margin: 10px;
+    border-radius: 10%;
+    height:400px;
+    width: 300px;
+    background-image: url('/offers/Festive_offers.jpeg');
+  background-size: cover;
+}
+.offer_details1_content_topic{
+    color: orange;
+    margin: 20px;
+    /* padding-left: 6%; */
+}
+.offer_details1_content{
+    padding-left: 6%;
+    color: aliceblue;
+}
+
+/* offer_pannel 2*/
+
+.offer_details2{
+    margin: 10px;
+    border-radius: 10%;
+    height:400px;
+    width: 300px;
+    background-image: url('/offers/iPhone_offers.jpeg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.offer_details2_content_topic{
+    color: pink;
+    margin: 20px;
+}
+.offer_details2_content{
+    padding-left: 6%;
+    color: aliceblue;
+}
+
+/* offer_pannel 3*/
+
+.offer_details3{
+    margin: 10px;
+    border-radius: 10%;
+    height:400px;
+    width: 300px;
+    background-image: url('/offers/Mac_offers.jpeg');
+  background-size: cover;
+}
+.offer_details3_content_topic{
+    color: palevioletred;
+    margin: 20px;
+}
+.offer_details3_content{
+    padding-left: 6%;
+    color: aliceblue;
+}
+
+/* offer_pannel 4*/
+
+.offer_details4{
+    border-radius: 10%;
+    height:400px;
+    width: 300px;
+    background-image: url('/offers/ipad_offers.jpeg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.offer_details4_content_topic{
+    color: salmon;
+    margin: 20px;
+}
+.offer_details4_content{
+    padding-left: 6%;
+    color: aliceblue;
+}
+
+/* offer_pannel 5 */
+
+.offer_details5{
+    margin: 10px;
+    border-radius: 10%;
+    height:400px;
+    width: 300px;
+    background-image: url('/offers/apple_watch_offers.jpeg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.offer_details5_content_topic{
+    color: yellow;
+    margin: 10px;
+}
+.offer_details5_content{
+    padding-left: 6%;
+    color: aliceblue;
+}
+
+/* offer_pannel 6 */
+
+.offer_details6{
+    margin: 10px;
+    border-radius: 10%;
+    height:400px;
+    width: 300px;
+    background-image: url('/offers/today_at_apple_offer.jpeg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.offer_details6_content_topic{
+    color: blue;
+    margin: 20px;
+}
+.offer_details6_content{
+    padding-left: 6%;
+    color: aliceblue;
+}
+
+
+.ql{
+    padding-top: 15px;
+}
+.ql a{
+    padding: 20px;
+    margin: 3px;
+    background-color: salmon;
+    border-radius: 40%;
+}
+.terms_and_conditions{
+    width: 100%;
+}
+.terms_and_conditions{
+    width: 90%;
+    padding: 50px;
+    color:rgb(146, 134, 134);
+    font-size: 90%;
+}
+.foot_logo{
+    width: 3%;
+}
+.foot1{
+    color:rgb(146, 134, 134);
+    font-size: 90%;
+    padding-left: 5%;
+    padding-top: 5%;
+}
+.foot_title{
+    color:rgb(146, 134, 134);
+
+}
+.foot_sk{
+    display:flex;
+    flex-wrap: wrap;
+    padding-left: 5%;
+    gap: 7%;
+    justify-content: space-around;
+}
+.foot_endup{
+
+    padding-top: 5%;
+    padding-left: 5%;
+    line-height: 40% ;
+}
+.foot_enddown{
+    line-height: 200%;
+    padding-left: 5% ;
+    display: flex;
+    flex-wrap: wrap;
+}
+.india{
+    padding-left: 1300%;
+}
+</style>
+<body>
+    <div class="top">
+            <div class="li1"><img class="li11" src="/apple_logo.png" alt="logo"></a></div>
+            <div class="li1"><a href=""><h2>store</h2></a></div>
+            <div class="li1"><a href=""><h2>mac</h2></a></div>
+            <div class="li1"><a href=""><h2>ipad</h2></a></div>
+            <div class="li1"><a href=""><h2>iphone</h2></a></div>
+            <div class="li1"><a href=""><h2>watch</h2></a></div>
+            <div class="li1"><a href=""><h2>earpods</h2></a></div>
+            <div class="li1"><a href=""><h2>tv & home</h2></a></div>
+            <div class="li1"><a href=""><h2>entertainment</h2></a></div>
+            <div class="li1"><a href=""><h2>accessories</h2></a></div>
+            <div class="li1"><a href=""><h2>support</h2></a></div>
+            <div class="li1"><a href=""><img class="li12" src="/search_bar.png" alt="search"></a></div>
+            <div class="li1"><a href=""><img class="li13" src="/shopping_bag_logo.png" alt="store"></a></div>
+    </div>
+    <div class="offer_note">
+        <p>Save up to ₹10000.00 instantly on eligible products with HDFC Bank Credit Cards. <br>
+         Footnote §§ Plus No Cost EMI from most leading banks. <a class="see_offers" href="">See offers</a></p>
+    </div>
+    <div class="qc">
+        <div class="quote">
+            <h1>Store.<span>Brighten the season 
+            <br> with products you love.</span></h1>
+        </div>
+        <div class="cc">
+            <nav>
+                <img class="img1" src="/c_care.jpeg" alt="">
+            </nav>
+            <nav class="cc1">
+                <p>Need shopping help? <br>
+                <a class="img11" href="">Ask a Specialist</a></p>
+                </nav><br>
+            <nav>
+                <img class="img2" src="/apple_location.png" alt="">
+            </nav>
+            <nav class="cc2">
+                <p>Visit an Apple Store <br>
+                <a class="img22" href="">Find one near you ></a></p>
+                </nav>
+        </div>    
+    </div>
+
+</div><br>
+    <div class="products">
+        <div>
+            <img  src="/Apple_products/Mac.png" alt="Mac">
+            <h4>Mac</h4>
+        </div> 
+        <div>
+            <img  src="/Apple_products/iPhone.png" alt="iPhone">
+            <h4>iPhone</h4>
+        </div>
+        <div>
+            <img  src="/Apple_products/Apple Watch.png" alt="Apple Watch">
+            <h4>Apple Watch</h4>
+        </div>
+        <div>
+            <img  src="/Apple_products/AirPods.png" alt="AirPods">
+            <h4>AirPods</h4>
+        </div>
+        <div>
+            <img  src="/Apple_products/HomePod.png" alt="HomePod">
+            <h4>HomePod</h4>
+        </div>
+        <div>
+            <img  src="/Apple_products/Accessories.png" alt="Accessories">
+            <h4>Accessories</h4>
+        </div>
+</div>
+
+<!-- 1.Festive specials. All the reasons to rejoice. -->
+
+<h1 class="h1">Festive specials.<span class="s1">All the reasons to rejoice.</span></h1>
+<div class="S1">
+    <div class="offer_details1">    
+        <p class="offer_details1_content_topic">FESTIVE OFFER</p>
+        <h3 class="offer_details1_content">Save up to $10000.00 <br> instantly on eligible <br> products with HDFC Bank <br> Credit Cards.</h1>
+    </div>
+    
+    <div class="offer_details2">
+        <p class="offer_details2_content_topic">IPHONE</p>
+        <h3 class="offer_details2_content">Save up to $6000.00 <br> Trade in your smartphone <br> to save even more.</h1>
+    </div>
+    <div class="offer_details3">
+        
+        <p class="offer_details3_content_topic">MAC</p>
+        <h3 class="offer_details3_content">Save up to $10000.00 <br> Customise it the way you <br> wants.</h1>
+    </div>
+    <div class="offer_details4">
+        <p class="offer_details4_content_topic">IPAD</p>
+        <h3 class="offer_details4_content">Save up to $5000.00 <br> Engrave it to make it yours.</h1>
+    </div>
+    <!-- <div class="offer_details5">
+        <p class="offer_details5_content_topic">APPLE WATCH</p>
+        <h3 class="offer_details5_content">Save up to $5000.00 <br> Pick new strap styles and <br> colours for extra dazzle.</h1>
+    </div>
+    <div class="offer_details6">
+        <p class="offer_details6_content_topic">TODAY AT APPLE</p>
+        <h3 class="offer_details6_content">Celebrate Diwali at Apple <br> BKC.Join Free Sessions to <br> Spark Your Creativity on <br> iPhone</h1>
+    </div> -->
+</div>
+</div>
+
+
+
+
+<div class="description">
+    <div><h1>Quick Links</h1></div><br>
+    <div class="ql">
+        <a href="">Order Status</a>
+        <a href="">Shopping Help</a>
+        <a href="">Your Saves</a>
+    </div>
+        <div>
+            <p class="terms_and_conditions">
+                ◊◊ Monthly pricing is after purchase using EMI with qualifying cards at 15% pa over a 6 month tenure. Monthly pricing is rounded to the nearest rupee. Exact pricing will be <br> provided by your bank, subject to your bank’s terms and conditions. <br>
+                Representative example: Based on purchase of ₹79900.00. Total amount payable ₹83432.00 paid over 6 months as 6 monthly payments of ₹13905.00 at an interest rate of 15% pa. Total interest paid to bank: ₹3532.00.
+                § No Cost EMI is available with the purchase of an eligible product made using eligible cards on 3- or 6-month tenures from most leading banks. Monthly pricing is rounded to the nearest rupee. Exact pricing will be provided by your bank, subject to your bank’s terms and conditions. Minimum order spend applies as per your card issuing bank threshold. Offer cannot be combined with Apple Store for Education or Corporate Employee Purchase Plan pricing. Card eligibility is subject to terms and conditions between you and your card issuing bank. Offer may be revised or withdrawn at any time without any prior notice. Additional terms apply.
+                Representative example: Based on a 6 month tenure. ₹79900.00 total cost includes 15% pa and No Cost EMI savings of ₹3380.00, paid over 6 months as 6 monthly payments of ₹13317.00.
+                §§ Instant savings otherwise referred to as instant cashback, is available on the Apple Online Store and Apple Retail Stores with the purchase of an eligible product with qualifying HDFC Bank Credit Cards and EasyEMI Credit Cards only from October 15 2023 to November 14 2023, with the exception of iPhone 14 and iPhone 14 Plus and AirPods Pro (2nd generation), which will have instant savings applicable between October 15 2023 to November 7 2023 only. Minimum transaction value of ₹10001 applies. Click here to see instant savings amounts and eligible devices. Instant savings are available for up to two orders per rolling 90-day period with an eligible card. Card eligibility is subject to terms and conditions between you and your card issuing bank. Total transaction value is calculated after any trade-in credit or eligible discount applied. Any subsequent order adjustment(s) or cancellation(s) may result in instant savings being recalculated, and any refund may be adjusted to account for instant savings clawback; this may result in no refund being made to you. Offer may be revised or withdrawn at any time without any prior notice. Additional terms apply. Offer cannot be combined with Apple Store for Education or Corporate Employee Purchase Plan pricing. Multiple separate orders cannot be combined for instant savings.
+                * Trade‑in values will vary based on the condition, year and configuration of your eligible trade‑in device. Not all devices are eligible for credit. You must be at least the age of majority to be eligible to trade in for credit. Trade‑in value may be applied towards a qualifying new device purchase. Actual value awarded is based on receipt of a qualifying device matching the description provided when estimate was made. Sales tax may be assessed on full value of a new device purchase. In-store trade‑in requires presentation of a valid photo ID (local law may require saving this information). Offer may not be available in all stores, and may vary between in-store and online trade‑in. Some stores may have additional requirements. Apple or its trade‑in partners reserve the right to refuse, cancel or limit the quantity of any trade‑in transaction for any reason. More details are available from Apple’s trade‑in partner for trade‑in and recycling of eligible devices. Restrictions and limitations may apply.
+                2. Special pricing available to qualified customers. To learn more about how to start qualifying for special pricing, talk to an Apple Specialist in a store or give us a call on 000800 040 1966.
+                ° New and qualified returning subscribers only. ₹99/month after free trial. Only one offer per Apple ID and only one offer per family if you’re part of a Family Sharing group, regardless of the number of devices that you or your family purchase. This offer is not available if you or your family have previously accepted an Apple TV+ three-months-free or one-year-free offer. Offer valid for three months after eligible device activation. Plan automatically renews until cancelled. Restrictions and other terms apply.
+                §§§ From 8 November 2023 until 14 November 2023 you can receive Promotion Savings when you purchase any iPhone 14 (15.40 cm / 6.1 inches) or iPhone 14 Plus (16.95 cm / 6.7 inches) (“Eligible Products”) with a pair of AirPods (3rd generation) with Lightning Charging Case, or step up to AirPods (3rd generation) with MagSafe Charging Case or AirPods Pro (2nd generation) with MagSafe Charging Case (USB‑C) (“Promotion Product”). Promotion Savings will be based on the combined value of invoice(s). Maximum of two (2) Promotion Savings per purchaser. Product(s) may ship separately. During peak season or shortage of supply, there may be a delay in delivery of product(s). This offer cannot be combined with Instant Cashback, Education or Corporate Employee Purchase Plan pricing. Limited stock available, while supplies last and subject to terms and conditions herein.
+                °° New and qualified returning subscribers only. ₹99/month after free trial. Only one offer per Apple ID and only one offer per family if you’re part of a Family Sharing group, regardless of the number of devices that you or your family purchase. This offer is not available if you or your Family Sharing group have previously accepted an Apple Arcade three-months-free offer. Offer valid for three months after eligible device activation. Plan automatically renews until cancelled. Restrictions and other terms apply.
+                ⁺ New subscribers only. ₹99/month after trial. Offer available for a limited time to new subscribers who connect an eligible device to an Apple device running iOS 15 or iPadOS 15 or later. Offer valid for three months after eligible device pairing. No audio product purchase necessary for current owners of eligible devices. Plan automatically renews until cancelled. Restrictions and other terms apply.
+                ⁺⁺ New subscribers only. Plan automatically renews at your region’s price per month until cancelled. Restrictions and other terms apply. Only one offer per Apple ID, regardless of the number of devices you purchase. Offer cannot be combined with other free trials or offers for Apple Music. With eligible audio devices: Offer is available for a limited time to new subscribers who connect an eligible device to an Apple device running iOS 15 or iPadOS 15 or later. Offer is valid for 3 months after eligible device pairing. No purchase necessary for current owners of eligible audio devices. With the purchase and activation of a new iPhone: Offer is available for a limited time to new subscribers who purchase and activate a new iPhone. Offer is valid for 3 months after eligible iPhone activation.
+                ‡ Listed pricing is Maximum Retail Price (inclusive of all taxes).
+                We use your location to show you delivery options faster. We found your location using your IP address or because you entered it during a previous visit to Apple.
+        
+        ________________________________________________________________________________________________________________________________________________________________________</p>
+        </div>
+    <a class="foot1" href=""><img class="foot_logo" src="/apple_logo.png" alt=""></a><span class="foot_title">   _  Apple Store Online</span>
+<div class="foot_sk">
+   <div>
+       <h4>Shop and Learn</h1>
+       <p>Store</p>
+       <p>Mac</p>
+       <p>iPad</p>
+       <p>iPhone</p>
+       <p>Watch</p>
+       <p>AirPods</p>
+       <p>TV & Home</p>
+       <p>AirTag</p>
+       <p>Accessories</p>
+       <p>Gift Cards</p><br>
+       <h4>Apple Wallet</h4>
+       <p>Wallet</p>
+   </div>
+   <div>
+       <h4>Account</h4>
+       <p>Manage Your Apple ID</p>
+       <p>Apple Store Account</p>
+       <p>iCloud.com</p><br>
+       <h4>Entertainment</h4>
+       <p>Apple One</p>
+       <p>Apple TV+</p>
+       <p>Apple Music</p>
+       <p>Apple Arcade</p>
+       <p>Apple Podcasts</p>
+       <p>Apple Books</p>
+       <p>App Store</p>
+   </div>
+   <div>
+       <h4>Apple Store</h4>
+       <p>Find a Store</p>
+       <p>Genius Bar</p>
+       <p>Today at Apple</p>
+       <p>Apple Summer Camp</p>
+       <p>Ways to Buy</p>
+       <p>Apple Trade In</p>
+       <p>Recycling Programme</p>
+       <p>Order Status</p>
+       <p>Shopping Help</p>
+   </div>
+   <div>
+       <h4>For Business</h4>
+       <p>Apple and Business</p><br>
+       <h4>For Education</h4>
+       <p>Apple and Education</p>
+       <p>Shop for Education</p>
+       <p>Shop for University</p><br>
+       <h4>For Healthcare</h4>
+       <p>Apple in Healthcare</p>
+       <p>Health on Apple Watch</p>
+   </div>
+   <div>
+       <h4>Apple Values</h4>
+       <p>Accessibility</p>
+       <p>Environment</p>
+       <p>Privacy</p>
+       <p>Supplier Responsibility</p><br>
+       <h4>About Apple</h4>
+       <p>Newsroom</p>
+       <p>Apple Leadership</p>
+       <p>Career Opportunities</p>
+       <p>Investors</p>
+       <p>Ethics & Compliance</p>
+       <p>Events</p>
+       <p>Contact Apple</p>
+   </div>
+</div>
+<div class="foot_endup">
+   <p>More ways to shop: Find an Apple Store or other retailer near you. Or call 000800 040 1966.
+________________________________________________________________________________________________________________________________________________</p>
+</div>
+<div class="foot_enddown" >
+    <div>
+        Copyright © 2023 Apple Inc. All rights reserved.
+        </div>
+    <div>
+        <a href="">Privacy Policy</a>
+    </div>
+    <div>|</div>
+    <div>
+        <a href=""></a>Terms of Use
+    </div>
+    <div>|</div>
+    <div>
+        Sales Policy
+    </div>
+    <div>|</div>
+    <div>
+        <a href="">Legal</a>
+    </div>
+    <div>|</div>
+    <div>
+        <a href="">Site Map</a></div>
+    <div>
+        <a class="india" href="">India</a></div>
+    </div>
+</div>
+</div>
+</div>
+</body>
+</html>
